@@ -11,10 +11,9 @@
 HISTCONTROL=ignoredups:ignorespace
 
 # append to the history file, don't overwrite it
-yellow=`tput setaf 3`
-magenta=`tput setaf 5`
-echo "${magenta}---------------------"
-echo "${yellow}[+] Parrot ish 1.0v"
+
+echo "---------------------"
+echo "[+] Parrot ish 1.0v"
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
 HISTFILESIZE=2000
